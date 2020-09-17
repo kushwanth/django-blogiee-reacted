@@ -1,6 +1,8 @@
 # django-blogiee-reacted
 ## extension of [django-blogiee](https://github.com/kushwanth/django-blogiee) project using django rest framework and reactjs
 
+![logo](https://github.com/kushwanth/django-blogiee-reacted/blob/master/logo.png?raw=true)
+
 ## backend
 built using django and django-rest-framework
 
@@ -37,10 +39,6 @@ python manage.py migrate
 python manage.py runserver
 ```
 ## Now you can see the home page by going to 127.0.0.1:8000
-
-## I am working under development of transforming [PWA](https://django-blogiee.herokuapp.com) into APK using [Trusted web activity(TWA)](https://github.com/codekushi/django-blogiee/blob/deploy-twa/twa-app/app-release-signed.apk) whose code is in [deploy-twa](https://github.com/codekushi/django-blogiee/tree/deploy-twa) branch
-
-## [deploy-twa](https://github.com/codekushi/django-blogiee/tree/deploy-twa) branch contains [deployed website](https://django-blogiee.herokuapp.com) and APK file for the deployed wesite built using Trusted Web Activity(TWA) using [Bubblewrap](https://github.com/GoogleChromeLabs/bubblewrap)
 
 ## Customizing Django Blogiee
 
@@ -122,6 +120,9 @@ the front end can be accessed by both django templates and reactjs
 
 In the project directory, you can run:
 
+### `npm install`
+To install dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -143,4 +144,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the official section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
